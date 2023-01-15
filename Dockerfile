@@ -1,4 +1,4 @@
-FROM  centos:latest
+FROM  centos:centos7
 MAINTAINER khsr25
 RUN yum install -y httpd \
  zip\
