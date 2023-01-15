@@ -1,5 +1,5 @@
 FROM  centos:centos7
-MAINTAINER khsr25
+MAINTAINER khsr25@gmail.com
 RUN yum install -y httpd \
  zip\
  unzip
