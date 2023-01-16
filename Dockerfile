@@ -12,7 +12,7 @@
 #EXPOSE 80 22
 
 
- FROM  centos:latest
+ FROM  centos:centos6
  MAINTAINER khsr25@gmail.com
  RUN yum install -y httpd \
   zip\
