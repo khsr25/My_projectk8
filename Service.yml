@@ -11,4 +11,4 @@ spec:
       nodePort: 31200
   selector:
     app: khsr25                    
-  type: nodeport                   
+  type: LoadBalancer                   
