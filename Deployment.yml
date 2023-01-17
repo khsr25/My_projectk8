@@ -1,19 +1,19 @@
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-   name: khsr
+   name: khsr25
 spec:
-   replicas: 2
+   replicas: 3
    selector:      # tells the controller which pods to watch/belong to
     matchLabels:
-     app: khsr
+     app: khsr25
    template:
       metadata:
         labels:
-          app: khsr
+          app: khsr25
       spec:
        containers:
-        - name: khsr
+        - name: khsr25
           image: khsr25/pipeline-demo
           imagePullPolicy: Always
           ports:
